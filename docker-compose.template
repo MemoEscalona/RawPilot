@@ -1,0 +1,10 @@
+services:
+  photo_ai:
+    build: .
+    container_name: photo_ai_dev
+    volumes:
+      - .:/app
+      - /mnt/c/Users/MemoEscalona/Desktop/test/:/data/raws
+    working_dir: /app
+    stdin_open: true
+    tty: true

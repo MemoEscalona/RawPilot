@@ -1,0 +1,4 @@
+rawpy
+numpy
+opencv-python
+exifread
